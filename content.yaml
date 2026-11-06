@@ -1,0 +1,55 @@
+brand:
+  name: HORS CHAMP
+  tagline: Des vêtements essentiels, construits pour vivre dehors.
+  territory: [sobriété parisienne, volume contemporain, imperfection assumée, protection technique, nostalgie sportswear]
+drop:
+  name: Drop 01 — Outside System
+  status: Collection de démonstration
+  launch_date: Date à confirmer
+  primary_cta:
+    label: Accéder au drop
+    href: '#access'
+  secondary_cta:
+    label: Découvrir la collection
+    href: '#collection'
+manifesto:
+  title: Pas une saison. Un système.
+  continuation: À porter. À user. À recommencer.
+  text: Des pièces simples, pensées pour les déplacements, les couches et les usages quotidiens.
+  extension: Une silhouette qui ne cherche pas sa place. Elle la prend, dehors.
+products:
+  - name: Field Hoodie
+    description: Hoodie oversize en coton lourd, lavé et structuré.
+    status: Produit de démonstration
+    type: hoodie
+    tone: '#8b8b7e'
+    label: VOLUME / STRUCTURE
+  - name: Layer Shell
+    description: Une couche légère pensée pour protéger sans alourdir.
+    status: Produit de démonstration
+    type: shell
+    tone: '#343a36'
+    label: COUCHE / PROTECTION
+  - name: Archive Tee
+    description: Un t-shirt ample, marqué par un imprimé discret.
+    status: Produit de démonstration
+    type: tee
+    tone: '#c7c4b8'
+    label: MÉMOIRE / QUOTIDIEN
+  - name: Signal Cap
+    description: Une casquette souple avec un détail réfléchissant.
+    status: Produit de démonstration
+    type: cap
+    tone: '#444741'
+    label: DÉTAIL / SIGNAL
+access:
+  title: Le drop arrive bientôt.
+  text: Inscris-toi pour recevoir l’accès anticipé et les informations de lancement.
+  input_label: Ton adresse email
+  button_label: Rejoindre la liste
+  confirmation_message: 'Merci. Simulation terminée : aucune inscription enregistrée, aucun email envoyé.'
+  backend_required: false
+  demo_note: Aucune adresse n’est enregistrée ni envoyée. Aucun email ne sera reçu.
+footer:
+  links: [Collection, Manifeste, Contact, Instagram]
+  legal: [Mentions légales, Politique de confidentialité]
