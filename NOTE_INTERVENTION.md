@@ -56,3 +56,12 @@ Blocage : le connecteur GitHub ne propose pas la création de dépôt ou l'envoi
 Le dépôt privé robindevoucoux1-cmyk/HORSCHAMP a été retrouvé via la liste des dépôts du compte connecté. Son état initial a été vérifié : aucun fichier et aucune branche. Les droits d'écriture sont confirmés. Le connecteur propose désormais les opérations d'écriture nécessaires.
 
 Périmètre autorisé : déposer la landing page et sa documentation sur main dans ce dépôt neuf, sans déploiement. Les fichiers de prévisualisation, secrets et environnements sont exclus. Ajout de cette note ; aucun changement du code de la page. Aucun test fonctionnel relancé puisque le code livré est inchangé ; les tests réalisés sur la landing page sont consignés plus haut. La vérification distante porte sur les fichiers et les références Git après l'envoi.
+
+
+## Préparation GitHub Pages — 6 novembre 2026
+
+Objectif autorisé : publier la landing page sur GitHub Pages. Sources vérifiées : métadonnées du dépôt, branches, index.html de main et documentation officielle GitHub Pages. État vérifié : dépôt privé, has_pages=false, main à eb166f31f51706a31134885b858fb91010792eee.
+
+Actions : création de gh-pages et commit 94fc8018989c028b19f7388c19ea64f66022ba17. Cette branche contient uniquement index.html (identique au fichier de main, blob 3a311639093d70b38039838722e24034b04e08dd) et .nojekyll vide. Vérification distante des deux fichiers réussie. Aucune modification du design ni du code fonctionnel, aucun test navigateur relancé. Les sources et documents de main sont conservés.
+
+Blocage : les outils connectés ne proposent pas l'activation de Pages, et le navigateur ne retrouve pas le contexte d'origine. La publication n'est donc pas réalisée. Action restante : Settings > Pages > Deploy from a branch > gh-pages > /(root) > Save. Le dépôt étant privé, la disponibilité de Pages dépend du forfait GitHub ; aucun forfait ni changement de visibilité n'a été effectué. Les mises à jour futures de la page devront être répercutées sur gh-pages ; aucun déploiement automatique depuis main n'a été ajouté.
